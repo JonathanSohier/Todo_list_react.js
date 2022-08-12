@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #232323;
+  text-align: center;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  background: #404040;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 5px;
+  padding-bottom: 32px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #daa520;
+  font-size: 24px;
+}
+
+h3 {
+  color: #c7c7c7;
+  margin-top: 10px;
+  border: solid #c7c7c7 1px;
+  border-radius: 4px;
+  width: 30%;
+  text-align: center;
+  margin-left: 34.3%;
+  margin-right: 34.3%;
+}
+
+.todo-form {
+  margin-bottom: 30px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 15px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #daa520;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #daa520;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #000000;
+  background: #daa520;
+  padding: 7.5px;
+  border-radius: 3px;
+  width: 90%;
+}
+
+.button-delete-edit {
+  margin-right: 5px;
+  background-color: #232323;
+  color: #ffffff;
+  padding: 7px;
+  border-radius: 4px;
+}
