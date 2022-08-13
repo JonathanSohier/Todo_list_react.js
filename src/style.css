@@ -20,6 +20,7 @@ body {
   margin: 128px auto;
   border-radius: 5px;
   padding-bottom: 32px;
+  min-height: 400px;
 }
 
 h1 {
